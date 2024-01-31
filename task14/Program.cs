@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Программа которая принимает на вход число N и выдает сумму чисел от 1 до N
+// 7 -> 28; 4 -> 10; 8 - 36.
+
+using System;
 using static System.Console;
 
 Clear();
