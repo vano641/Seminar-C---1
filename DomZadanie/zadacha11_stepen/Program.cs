@@ -27,10 +27,10 @@ int Degree(int numberA, int numberB)
 //      {
 //          return 1;
 //      }
-//      int result = x;
-//      for(int i = 2; i <= y; i++)
+//      int result = numberA;
+//      for(int i = 2; i <= numberB; i++)
 //      {
-//          result *= x;
+//          result *= numberA;
 //      }
 //      retun result;
 //}
