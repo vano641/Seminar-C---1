@@ -26,8 +26,8 @@ WriteLine();
 
 //3
 int[,] array2 = GetResult(m, n);
-//4
-PrintArray2(array2);
+//2
+PrintArray(array2);
 
 // РЕШЕНИЕ ПРЕПОДОВАТЕЛЯ:
 
@@ -90,18 +90,7 @@ int[,] GetResult(int rows, int columns)
     return result1;
 }
 
-//4   Метод печатающий НОВЫЙ Двумерный массив
-void PrintArray2(int[,] inArray3)
-{
-    for (int i = 0; i < inArray3.GetLength(0); i++)
-    {
-        for (int j = 0; j < inArray3.GetLength(1); j++)
-        {
-            Write($"{inArray3[i,j]} "); //выводим элементы в одну строку
-        }
-        WriteLine(); // переходим на новую строку
-    }
-}
+
 
 // РЕШЕНИЕ ПРЕПОДАВАТЕЛЯ:
 
